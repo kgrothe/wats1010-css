@@ -1,6 +1,36 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body
+{
+background-image: url('images/hiking-the-sand-dunes.jpg')
+}
+header.page-header 
+{
+ /* background:lightgreen;*/
+}
+aside.more-info 
+{
+ /* background:lightblue; */
+}
+aside.more-info img
+{
+  width: 200px;
+  height: auto;
+}
+section#content
+{
+  background:lightpink;
+}
+.poem
+{
+  list-style-type:none;
+}
+.poem
+{
+  font-family: helvitica;
+}
+footer.page-footer
+{
+  background:lightcyan;
 }
