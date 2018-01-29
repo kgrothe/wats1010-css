@@ -1,55 +1,172 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
+/***********************************************************/
+/* This is where styles for WATS 3010 project are defined. */
+/***********************************************************/
+
+/*----------------------------------------*/
+/***** background image and color *********/
+/*----------------------------------------*/
+
 
 body
-{
-background-image: url('images/hiking-the-sand-dunes.jpg')
-}
-header.page-header 
-{
- /* background:lightgreen;*/
-}
-.page-header
-{
-  text-align:center;
-  font-size:18px;
-  color:#a3312f;
-}
-aside.more-info 
-{
- background:lightblue;
- text-align:center; 
- font-family:sans-serif;  
-}
-aside.more-info img
-{
-  display:block;
-  margin:auto;
-  width: 200px;
-  height: auto;
-}
-.info-links
-{
-  list-style-type:none;
-  text-align:left;
-}
-section#content
-{
-  background:lightpink;
-}
-.poem
-{
-  list-style-type:none;
-  text-align:center;
+  {
+  background-color: #a5d9c5;
+  background-image: url('images/hiking-the-sand-dunes.jpg');  
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 85% 5%;  
+     
+  font-family: serif;
+  }
+
+/*------------------------------*/
+/*******  main heading  *********/
+/*------------------------------*/
+
+header
+  {
+  margin-top: 2%;
+  margin-left: 10%;
     
-}
+  font-size: 22px;
+  color: #a3312f;
+  }
+
+small
+  {
+  font-size: 60%;
+  }
+
+.page-header h1
+  {
+  margin-bottom: 0;
+  }
+  
+.page-header p
+  {        
+  margin-top: 0;
+  }
+
+/*------------------------------------*/
+/***** links and other headings *******/
+/*------------------------------------*/
+
+a
+  {
+  font-family: sans-serif;     
+  }
+a:link
+  {
+  color: #a3312f;  
+  }
+a:visited
+  {
+  color: darkgreen;  
+  }
+
+h2
+  {
+  font-family: sans-serif;
+  color: #a3312f;
+  }
+
+/*------------------------------*/
+/*********** image **************/
+/*------------------------------*/
+
+p img
+  {
+  display: block;
+  width: 160px;
+  length: auto;
+  border: 2px solid #a3312f;
+  margin: 10px 10px 20px 20px; 
+  float: right;   
+  }
+
+
+/*------------------------------------*/
+/*****         aside           ********/
+/*------------------------------------*/
+
+
+.more-info h2
+  {
+  width: 450px;
+  position: absolute;
+  top: 72%;
+  left: 45%;
+  }
+
+.more-info p
+  { 
+  width: 500px;
+  position: absolute;
+  top: 76%;
+  left: 45%;
+  }
+
+.info-links
+  {
+  width: 200px;
+  position: absolute;
+  top: 82%;
+  left: 43%;
+  
+  list-style: none;
+  }
+
+.social-links
+  {
+  width: 200px;
+  position: absolute;
+  top: 92%;
+  left: 43%;
+ 
+  list-style: none;
+  }
+
+/*---------------------------------*/
+/*****   main content        *******/
+/*---------------------------------*/
+
 .poem
-{
+  {
+  list-style-type: none;
+  line-height: 1.4;  
+  }
+
+section
+  {
+  width: 380px;
   font-style: italic;
-}
-footer.page-footer
-{
-  font-family:sans-serif;
-  font-size:14px;
-  background:lightcyan;
-}
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 150px;  
+  }
+
+section h2
+  {
+  display: none;
+  }
+
+
+/*-------------------------------*/
+/***  citations and footer  *****/
+/*------------------------------*/
+
+.page-footer
+  {
+  width: 30%;
+  position: absolute;
+  top: 115%;
+  left: 43%; 
+ 
+    
+  font-family: sans-serif;
+  font-size: 14px;
+ 
+  }
+  .page-credits
+  {
+  margin-top: 20%;          
+  }
+  
